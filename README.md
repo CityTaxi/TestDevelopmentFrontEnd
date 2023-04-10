@@ -15,15 +15,17 @@ Principalmente los siguientes aspectos:
 1. Asegúrate de tener `Node.js` y (`npm` o `yarn`) instalados.
 2. Se requiere crear la aplicación utilizando cualquiera de las siguientes Tecnologias (Frameworks) **[React](https://es.reactjs.org/)**, **[Angular](https://angular.io/)** o **[Vue](https://vuejs.org/)**.
   * se privilegiarán a los candidatos que utilicen **Redux o Flux** para **React**.
-  * utilizar ES6, ES7 o TypeScript.
-3. Se Recomienda emplear un  máximo de **5 (cinco) horas** y enviar todo lo que se pueda.
+  * utilizar ES10, ES11, ES12 o TypeScript.
+3. Se Recomienda emplear un  máximo de **8 (ocho) horas** y enviar todo lo que se pueda.
 4. Se requiere de una **cuenta de GitHub** para realizar este ejercicio.
 5. **Antes de comenzar a programar:**
     * Realizar un `Fork` de este repositorio (https://github.com/CityTaxi/TestDevelopmentFrontEnd.git).
     * Clonar el fork a su máquina local  `git clone git@github.com:USERNAME/FORKED-PROJECT.git`
     * Crear un `branch` en su cuenta de GitHub utilizando su nombre completo.
+    * Realizar una nueva rama `Branch` por cada funcionalidad 
 6. **Al finalizar**, debe entregar su trabajo realizado de la siguiente manera:
     * 1) Realizar un `Commit` de su proyecto, **enviar un `Pull Request` al branch con su NOMBRE**, y notificar a la siguiente dirección de correo electrónico  [juan.restrepo@citytaxiapp.com](mailto:juan.restrepo@citytaxiapp.com).
+    
 
 ## EJERCICIO PRÁCTICO
 **Objetivo:** Crear una aplicación,  que permita loguearse, que obtenga una lista de usuarios y muestre la información de sus perfiles, utilizando el API Rest pública de GitHub https://api.github.com/search/users?q=YOUR_NAME.
