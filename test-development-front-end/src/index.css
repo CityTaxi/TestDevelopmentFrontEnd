@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Montserrat";
+}
+
+body {
+  background: linear-gradient(90deg, #1b2838 0%, #000f18 80%);
+  color: #ffffff;
+}
+
+h1 {
+  margin: 8px auto;
+  font-size: 25px;
+}
+
+input {
+  padding: 7px;
+  background: #32353c;
+  color: #ffffff;
+  border: 1px solid #32353c;
+  border-radius: 3px;
+}
+
+input:hover {
+  background: #32354c;
+}
+
+button {
+  margin: 4px auto 10px;
+  width: 50%;
+  min-height: 35px;
+  font-size: 14px;
+  font-weight: 700;
+  font-family: "Montserrat";
+  background: linear-gradient(90deg, #07bfff 0%, #2d73ff 100%);
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: linear-gradient(90deg, #2d73ff 0%, #07bfff 100%);
+}
