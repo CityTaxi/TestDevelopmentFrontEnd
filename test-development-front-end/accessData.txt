@@ -1,0 +1,19 @@
+Datos de acceso - Usuarios Taxia Life
+
+juan.montes@gmail.com
+012345
+
+juan.restrepo@gmail.com
+0123456
+
+juan.varela@gmail.com
+01234567
+
+sebas.quintero@gmail.com
+012345678
+
+santi.restrepo@gmail.com
+0123456789
+
+andres.zapata@gmail.com
+0123456789*

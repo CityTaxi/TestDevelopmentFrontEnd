@@ -82,6 +82,7 @@ function LoginForm() {
           type="text"
           className="email"
           id="email"
+          name="email"
           onChange={handleInputChange}
           required
           autoComplete="on"
@@ -93,6 +94,7 @@ function LoginForm() {
         <input
           type="password"
           className="password"
+          name="password"
           id="password"
           onChange={handleInputChange}
           required
