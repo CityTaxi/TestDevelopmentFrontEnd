@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
+import { Helmet } from "react-helmet";
 import { initializeApp } from "firebase/app";
 import { getAuth, signInWithEmailAndPassword } from "firebase/auth";
 import firebaseConfig from "../firebaseConfig";
@@ -68,6 +69,9 @@ function LoginForm() {
 
   return (
     <>
+      <Helmet>
+        <title>Inicio de sesión</title>
+      </Helmet>
       <form onSubmit={handleSubmit} className={LoginFormStyles.form}>
         <img
           src="/taxia-life-logo.png"
