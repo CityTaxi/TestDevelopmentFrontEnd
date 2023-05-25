@@ -2,6 +2,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import LoginForm from "./components/LoginForm";
 import UserSearch from "./components/UserSearch";
 import UserProfile from "./components/UserProfile";
+import NotFoundPage from "./components/NotFoundPage";
 import ProtectedRoute from "./components/ProtectedRoute";
 
 function App() {
@@ -29,6 +30,7 @@ function App() {
             />
           }
         />
+        <Route path="/*" element={<NotFoundPage />} />
       </Routes>
     </BrowserRouter>
   );
