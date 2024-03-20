@@ -1,0 +1,11 @@
+.log-out-icon {
+  display: flex;
+  justify-content: flex-end;
+  margin: 30px 38px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.log-out-icon:hover {
+  color: #86e315;
+}
